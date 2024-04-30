@@ -5,7 +5,7 @@ body
     /* Colors */
     --primary-text-color: #fff;
     --body-background-color: #193f74;
-    --container-background-color: #212832;
+    --rating-container-background-color: #212832;
     --rating-button-background-color: #252e37;
     --rating-button-hover-background-color: #7c8898;
     --rating-button-active-background-color: #fd7413;
