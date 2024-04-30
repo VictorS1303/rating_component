@@ -1,0 +1,32 @@
+---
+const {ratingHeader, ratingText} = Astro.props
+---
+
+<div class="container rating-text-container" id="rating_text_container">
+    <h1>{ratingHeader}</h1>
+    <p>{ratingText}</p>
+</div>
+
+
+<style>
+    .container.rating-text-container
+    {
+        font-family: 'Overpass', sans-serif;
+        position: absolute;
+        top: 120px;
+        left: 40px;
+        color: var(--primary-text-color);
+    }
+
+    .container.rating-text-container h1
+    {
+        font-size: var(--headings-font-size);
+    }
+
+    .container.rating-text-container p
+    {
+        font-size: var(--copy-text-font-size);
+        margin-top: 10px;
+        color: var(--secondary-text-color);
+    }
+</style>
