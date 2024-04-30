@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:100, 200, 300, 400, 500, 600, 700, 800, 900');
+
+body
+{
+    /* Colors */
+    --primary-text-color: #fff;
+    --body-background-color: #193f74;
+    --container-background-color: #212832;
+    --rating-button-background-color: #252e37;
+    --rating-button-hover-background-color: #7c8898;
+    --rating-button-active-background-color: #fd7413;
+    --submit-button-text-color: #fff;
+    --submit-button-background-color: #fd7413;
+    --submit-button-hover-text-color: #fd7413;
+    --submit-button-hover-background-color: #fff;
+
+
+    /* Radii */
+    --base-border-radius: 10px;
+
+    /* Fonts */
+    --headings-font-size: 23px;
+    --copy-text-font-size: 15px;
+
+    /* Shadows */
+    --text-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    --box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    user-select: none;
+}
+
+body
+{
+    background-color: var(--body-background-color);
+}
+
+button
+{
+    background-color: transparent;
+    cursor: pointer;
+}
