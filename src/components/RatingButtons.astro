@@ -1,0 +1,38 @@
+---
+import RatingButtonsContainer from "./RatingButtonsContainer.astro"
+
+const ratingButtonNumbers = [1, 2, 3, 4, 5]
+
+
+
+---
+
+<RatingButtonsContainer>
+    {
+
+    }
+</RatingButtonsContainer>
+
+
+<style>
+    button.rating-btn
+    {
+        font-family: inherit;
+        background-color: var(--rating-button-background-color);
+        height: 50px;
+        width: 50px;
+        border-radius: calc(var(--base-border-radius) * 50);
+        color: var(--primary-text-color);
+        font-size: 20px;
+        transition: background 0.2s ease-in;
+    }
+
+    button.rating-btn:hover {
+        background-color: var(--rating-button-hover-background-color);
+        transition: background 0.2s ease-in;
+    }
+
+    button.rating-btn.active {
+        background-color: var(--rating-button-active-background-color);
+    }
+</style>

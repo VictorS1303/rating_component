@@ -4,6 +4,7 @@ body
 {
     /* Colors */
     --primary-text-color: #fff;
+    --secondary-text-color: #a8b4c5;
     --body-background-color: #193f74;
     --rating-container-background-color: #212832;
     --rating-button-background-color: #252e37;
@@ -19,7 +20,7 @@ body
     --base-border-radius: 10px;
 
     /* Fonts */
-    --headings-font-size: 23px;
+    --headings-font-size: 30px;
     --copy-text-font-size: 15px;
 
     /* Shadows */
